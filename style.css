@@ -3,8 +3,8 @@ section {
     display: flex;
     flex-direction: column;
     border: 1px solid gray;
-    width: 500px;
-    height: 500px;
+    width: 550px;
+    height: 550px;
 }
 
 section > div {
@@ -14,11 +14,20 @@ section > div {
 }
 
 .square, .circle {
-    height: 90%;
-    width: 17%;
+    height: 80%;
+    width: 15%;
     border: 2px solid #d3a19d;
 }
 
 .circle {
     border-radius: 50px;
+}
+
+.rotate {
+    transform-origin: center center;
+    transform: rotate(45deg);
+}
+
+.full {
+    background-color: #d3a19d;
 }
